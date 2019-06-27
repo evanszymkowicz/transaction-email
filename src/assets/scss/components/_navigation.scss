@@ -1,0 +1,37 @@
+.main-navigation {
+  min-width: 100%;
+  a{
+    font-family: $font-family-condensed !important;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all .4s ease-out;
+  }
+  a:hover{
+    border-bottom: 2px solid $white;
+  }
+}
+.main-navigation {
+  padding: 0 !important;
+  padding-bottom: 10px !important;
+  th{
+    text-align: center !important;
+  }
+  a{
+    margin: 0 5.8% !important;
+  }
+  a:first-child{
+    margin-left: 0 !important;
+  }
+  a:last-child{
+    margin-right: 0 !important;
+  }
+}
+
+// @media only screen and (max-width: $mobile-viewport) {
+//   .main-navigation {
+//     a{
+//       margin: 0 3% !important;
+//     }
+//   }
+// }
